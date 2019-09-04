@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('./font/MyriadPro-Regular.eot');
+    src: url('./font/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('./font/MyriadPro-Regular.woff') format('woff'), url('./font/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-stage {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #DCDCDC;
+    height: 230px;
+    min-width: 1000px;
+}
+
+.logo {
+    margin: 6.5% 0% 0% 1.8%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/logoX.png);
+}
+
+.logo-text {
+    color: grey;
+}
+
+.contact-ifo {
+    display: inline-block;
+}
+
+.contact-ifo li {
+    list-style: none;
+    font-family: 'Myriad Pro Regular';
+    color: grey;
+    font-size: 1.8rem;
+}
+
+.main-stage {
+    max-width: 1000px;
+}
+
+.block-feed-back {
+    height: 509px;
+    background-image: url(./img/bg_block_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
